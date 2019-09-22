@@ -1,6 +1,7 @@
 import React from "react"
 import { Grid } from "semantic-ui-react"
 import ClaimsList from "./Claims/ClaimsList"
+import ClaimsDetails from "./Claims/ClaimsDetails"
 
 
 const AccountClaimsDashboard:React.FC=()=>{
@@ -12,7 +13,7 @@ const AccountClaimsDashboard:React.FC=()=>{
           <ClaimsList></ClaimsList>
       </Grid.Column>
       <Grid.Column width={4}>
-          sdlfkjbhjzdsbhjzdsbhjsdbfj
+          <ClaimsDetails/>
       </Grid.Column>
     </Grid.Row>
     

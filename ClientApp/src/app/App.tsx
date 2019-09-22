@@ -34,17 +34,6 @@ setweatherReport(response.data)
       <Container>
       <AccountClaimsDashboard></AccountClaimsDashboard>
       </Container>
-      <List>
-        <div>Data from API</div>
-{weatherReports.map((weatherReport,index)=>(
-  
-  <List.Item key={index}>{weatherReport.date}-{weatherReport.temperatureC}-{weatherReport.summary}</List.Item>
-  
-))}
-      </List>
-
-     
-
     </div>
   );
 }
